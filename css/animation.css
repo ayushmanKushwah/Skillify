@@ -1,0 +1,26 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes come-from-top {
+    0%{
+        top: -100px;
+    }100%{
+        top: 0px;
+    }
+}
+
+@keyframes come-from-bottom {
+    0%{
+        bottom: -100px;
+    }100%{
+        bottom: 0px;
+    }
+}

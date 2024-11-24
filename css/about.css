@@ -1,0 +1,131 @@
+.about {
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20vh;
+    animation: appear 3s ease-in-out 0s 1;
+}
+
+.about-text-section {
+    min-height: 30vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    text-align: center;
+}
+
+.about-text-section-heading {
+    color: white;
+    font-size: 3rem;
+    padding: 20px;
+    letter-spacing: 5px;
+}
+
+.about-text-section-sun-part {
+    font-size: 1.5rem;
+}
+
+.about-mission {
+    min-height: 40vh;
+    padding-left: 10%;
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-img-container {
+    width: 50%;
+    height: 100%;
+}
+
+#mission-img {
+    width: 80%;
+    border-radius: 20px;
+}
+
+.about-mission-text {
+    width: 50%;
+    padding-right: 10%;
+    height: 100%;
+}
+
+.about-mission-heading {
+    font-size: 3rem;
+    color: white;
+    letter-spacing: 5px;
+    text-align: left;
+}
+
+.about-mission-desc {
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.about-me {
+    min-height: 40vh;
+    padding-left: 5%;
+    margin-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-text {
+    height: 100%;
+    width: 50%;
+}
+
+.about-me-image-container {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-image {
+    height: 400px;
+    width: 400px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    box-shadow: 0 20px 5px 5px rgba(0, 0, 0, 0.2);
+    animation: animate 3s linear infinite;
+    transition: all 0.5s ease-in-out;
+}
+
+.about-me-heading {
+    color: white;
+    font-size: 3rem;
+}
+
+.about-me-desc {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+@keyframes animate {
+    0% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+
+    25% {
+        border-radius: 45% 50% 50% 55%/55% 45% 50% 50%;
+    }
+
+    50% {
+        border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+    }
+
+    75% {
+        border-radius: 45% 50% 50% 55%/55% 45% 50% 50%;
+    }
+
+    100% {
+        border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+    }
+}
